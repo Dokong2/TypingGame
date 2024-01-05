@@ -26,3 +26,4 @@ if startMSG == "start":
     print("게임이 시작됩니다.")
     time.sleep(0.2)
     os.system('cls')
+    print("이게 서버에 있는 내용이야!!!")
