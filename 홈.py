@@ -47,7 +47,7 @@ if startMSG == "start":
         print("당신입니다!")
         print("축하드립니다.")
         print("당신의 카라멜 숫자 : " + My_CaraMell)
-    else
+    else:
         Sangde_betingGab = My_betingGab + Sangde_betingGab
         My_betingGab = My_betingGab - Sangde_betingGab
         print("상대입니다!")
