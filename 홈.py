@@ -1,6 +1,5 @@
-import os
 import time
-print("WANDU_TIPING_GAME━━━━━━━━━━━━━━━━━━━━━━━━Test.Ver") #36줄
+print("WANDU_TIPING_GAME━━━━━━━━━━━━━━━━━━━━━━━━Test.Ver")
 print("📢공지사항━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━")
 print("Test ver. 1.0의 새소식━━━━━━━━━━━━━━━━━━━━━━━━━━━━")
 print("'완두 타이핑 게임'에 오신 것을 환영합니다.")
@@ -32,19 +31,28 @@ if startMSG == "start":
     print("상대의 히든카드 : ?")
     print("몇개을 베팅하시겠습니까?")
     print("현재 나의 카라멜 수 : " + str(My_CaraMell))
-    betingGab = input(">>")
+    My_betingGab = input(">>")
     print("나의 베팅이 끝났습니다.")
     print("상대가 베팅 중입니다...")
     time.sleep(13.23)
     print("상대가 베팅이 끝났습니다.")
+    Sangde_betingGab = 3
     print("이제 결과를 발표합니다.")
     time.sleep(2)
     print("이번 라운드의 승자는...")
     time.sleep(4.5)
     if (My_See_Card + My_BeMil_Card) > (sangde_bemil_card + Sangde_see_card):
+        My_betingGab = Sangde_betingGab + My_betingGab
+        Sangde_betingGab = Sangde_betingGab - My_betingGab
         print("당신입니다!")
         print("축하드립니다.")
-        print("당신의 카라멜 숫자 : ")
-    #else랑 상대베팅값, 그리고 반복문도 해야됨
-    #최종수정일 : 2024.1.5 11:18
+        print("당신의 카라멜 숫자 : " + My_CaraMell)
+    else
+        Sangde_betingGab = My_betingGab + Sangde_betingGab
+        My_betingGab = My_betingGab - Sangde_betingGab
+        print("상대입니다!")
+        print("아깝습니다...")
+        print("당신의 카라멜 숫자 : " + My_CaraMell)
+        # 반복문 하면 될듯
+        # 마지막 수정일 : 2024.1.6 16:53
 
