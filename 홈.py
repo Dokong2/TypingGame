@@ -8,51 +8,32 @@ print("━━━━━━━━━━━━━━━━━━━━━━━━�
 print('게임을 시작하시려면 "start"를 입력하세요.')
 startMSG = input(">>")
 if startMSG == "start":
-    print("5초 후 게임이 시작됩니다.")
-    time.sleep(1)
-    print("4초 후 게임이 시작됩니다.")
-    time.sleep(1)
-    print("3초 후 게임이 시작됩니다.")
-    time.sleep(1)
-    print("2초 후 게임이 시작됩니다.")
-    time.sleep(1)
-    print("1초 후 게임이 시작됩니다.")
-    time.sleep(1)
+    print("타이핑 게임 [G1]")
+    print("룰 설명 : 제시어가 주어지면 상대보다 먼저 제시어를")
+    print("입력하면 승리하게 됩니다,")
+    print("5판 3선승제로 최대 5라운드까지 있습니다.")
+    print("(듀스는 포함되지 않습니다.)")
+    print("")
+    while True:
+        if startGame == True:
+            break
     print("게임이 시작됩니다.")
-    My_See_Card = 1
-    My_BeMil_Card = 4
-    Sangde_see_card = 3
-    sangde_bemil_card = 5
-    My_CaraMell = 20
-    print("당신이 선공입니다.")
-    print("나의 이마카드 : ?")
-    print("나의 히든카드 : ?")
-    print("상대의 이마카드 : " + str(Sangde_see_card))
-    print("상대의 히든카드 : ?")
-    print("몇개을 베팅하시겠습니까?")
-    print("현재 나의 카라멜 수 : " + str(My_CaraMell))
-    My_betingGab = input(">>")
-    print("나의 베팅이 끝났습니다.")
-    print("상대가 베팅 중입니다...")
-    time.sleep(13.23)
-    print("상대가 베팅이 끝났습니다.")
-    Sangde_betingGab = 3
-    print("이제 결과를 발표합니다.")
-    time.sleep(2)
-    print("이번 라운드의 승자는...")
-    time.sleep(4.5)
-    if (My_See_Card + My_BeMil_Card) > (sangde_bemil_card + Sangde_see_card):
-        My_betingGab = Sangde_betingGab + My_betingGab
-        Sangde_betingGab = Sangde_betingGab - My_betingGab
-        print("당신입니다!")
-        print("축하드립니다.")
-        print("당신의 카라멜 숫자 : " + My_CaraMell)
-    else:
-        Sangde_betingGab = My_betingGab + Sangde_betingGab
-        My_betingGab = My_betingGab - Sangde_betingGab
-        print("상대입니다!")
-        print("아깝습니다...")
-        print("당신의 카라멜 숫자 : " + My_CaraMell)
-        # 반복문 하면 될듯
-        # 마지막 수정일 : 2024.1.6 16:53
+    TypigGab = "완두콩바보의반대의반대의반대의반대의반대"
+    print(TypigGab)
+    sandeOk = False
+    print("제시어 : " + TypigGab)
+    #def input():
+        #while True
+            #Taza = input("빨리 입력하세요! >>")
+            #MSG Taza
+            #if SvRtern == O-"OK"
+            #    print("정답입니다.")
+            #    imbrack = True
+            #    breck
+            #else:
+            #    print("땡!")
 
+    #def sandezundab():
+    #    while True
+    #        if imbrack == True
+    #            break
