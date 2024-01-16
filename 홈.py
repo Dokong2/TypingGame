@@ -1,4 +1,6 @@
 import time
+
+
 print("WANDU_TIPING_GAME━━━━━━━━━━━━━━━━━━━━━━━━Test.Ver")
 print("📢공지사항━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━")
 print("Test ver. 1.0의 새소식━━━━━━━━━━━━━━━━━━━━━━━━━━━━")
@@ -22,18 +24,3 @@ if startMSG == "start":
     print(TypigGab)
     sandeOk = False
     print("제시어 : " + TypigGab)
-    #def input():
-        #while True
-            #Taza = input("빨리 입력하세요! >>")
-            #MSG Taza
-            #if SvRtern == O-"OK"
-            #    print("정답입니다.")
-            #    imbrack = True
-            #    breck
-            #else:
-            #    print("땡!")
-
-    #def sandezundab():
-    #    while True
-    #        if imbrack == True
-    #            break
